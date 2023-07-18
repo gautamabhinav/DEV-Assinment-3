@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>One-Card Landing Page</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .hero {
+      height: 500px;
+      background-image: url('path/to/your/hero-image.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      overflow: hidden;
+      max-width: 100%;
+      height: 0;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Add more styles to replicate the design */
+
+    @media (max-width: 768px) {
+      /* Adjust styles for smaller screens */
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>Welcome to One-Card</h1>
+    <p>Your solution for all-in-one convenience</p>
+  </header>
+  
+  <section class="hero"></section>
+  
+  <section>
+    <div class="video-container">
+      <iframe src="path/to/your/video.mp4" controls></iframe>
+    </div>
+  </section>
+
+  <!-- Add more sections and content to replicate the design -->
+
+</body>
+</html>
